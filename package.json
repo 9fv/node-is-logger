@@ -4,7 +4,9 @@
   "description": "Check if the provided value is a (standardized) logger.",
   "main": "src/is-a-logger.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "lint": "gulp lint",
+    "documentation": "gulp documentation"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,6 @@
   "homepage": "https://github.com/9fv/node-is-a-logger#readme",
   "dependencies": {
     "es6-error": "^4.1.1",
-    "gulp-eslint": "^4.0.1",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
@@ -34,6 +35,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.1",
     "gulp-jsdoc-to-markdown": "^1.2.2",
     "gulp-load-plugins": "^1.5.0",
     "gulp-rename": "^1.2.2",
