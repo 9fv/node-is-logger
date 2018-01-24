@@ -3,22 +3,25 @@ node-is-logger
 
 ## Table of Contents
 
-* [Synopsis](#Synopsis)
-* [Usage](#Usage)
-* [Installation](#Installation)
-* [API Reference](#API Reference)
-* [Tests](#Tests)
-* [Compatibility](#Compatibility)
-* [Contributing](#Contributing)
-* [Credits](#Credits)
-* [History](#History)
-* [License](#License)
+* [Synopsis](#synopsis)
+* [Usage](#usage)
+* [Installation](#installation)
+* [API Reference](#api-reference)
+* [Tests](#tests)
+  * [Run unit tests](#tests_run-unit-tests)
+* [Compatibility](#compatibility)
+  * [Node](#compatibility_node)
+  * [Browser](#compatibility_browser)
+* [Contributing](#contributing)
+* [Credits](#credits)
+* [History](#history)
+* [License](#license)
 
-## Synopsis
+## <a name="synopsis"> Synopsis
 
 Verify if a value seems or is a logger, including "standardized" methods: `debug`, `info`, `error`... - _as [Bunyan](https://github.com/trentm/node-bunyan) or [Winston](https://github.com/winstonjs/winston)_.
 
-## Usage 
+## <a name="usage"> Usage
 
 ```
    const isLogger = require('is-logger');
@@ -38,40 +41,41 @@ Verify if a value seems or is a logger, including "standardized" methods: `debug
    
 ```
 
-## Installation
+## <a name="installation"> Installation
 
     npm install is-logger
 
-## API Reference
+## <a name="api-reference"> API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
-## Tests
+## <a name="test"> Tests
 
-### Running unit tests
+### <a name="tests_run-unit-tests"> Run unit tests
 
     npm test
 
-## Compatibility
+## <a name="compatibility"> Compatibility
 
-### Node
+### <a name="compatibility_node"> Node
 
 Tested with [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/)
 
-### Browser
+### <a name="compatibility_browser"> Browser
 
 Untested at this time.
 
-## Contributing
+## <a name="contributing"> Contributing
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
-## Credits
+## <a name="credits"> Credits
 
-## History
+## <a name="history"> History
 
-## License
+## <a name="license"> License
 
+>
 > [The MIT License](https://opensource.org/licenses/MIT)
 > 
 > Copyright (c) 2018 SAS 9 Février
@@ -93,4 +97,4 @@ Let people know how they can dive into the project, include important links to t
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
-
+>
