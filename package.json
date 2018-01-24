@@ -1,32 +1,40 @@
 {
-  "name": "@9fv/is-a-logger",
+  "name": "is-logger",
   "version": "0.1.0-alpha1",
-  "description": "Check if the provided value is a (standardized) logger.",
-  "main": "src/is-a-logger.js",
+  "description": "Verify if a value seems or is a logger, including \"standardized\" methods",
+  "main": "src/is-logger.js",
   "scripts": {
     "test": "node ./node_modules/gulp/bin/gulp.js test",
     "lint": "node ./node_modules/gulp/bin/gulp.js lint",
     "docs": "node ./node_modules/gulp/bin/gulp.js docs",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
   },
-  "pre-commit": [ "precommit-msg", "lint", "test", "docs" ],
+  "pre-commit": [
+    "precommit-msg",
+    "lint",
+    "test",
+    "docs"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/9fv/node-is-a-logger.git"
+    "url": "git+https://github.com/9fv/node-is-logger.git"
   },
   "keywords": [
     "logger",
+    "is-logger",
     "check",
     "9fv.io",
     "9fv",
-    "logging"
+    "logging",
+    "bunyan",
+    "winston"
   ],
   "author": "9 Février <contact@9fevrier.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/9fv/node-is-a-logger/issues"
+    "url": "https://github.com/9fv/node-is-logger/issues"
   },
-  "homepage": "https://github.com/9fv/node-is-a-logger#readme",
+  "homepage": "https://github.com/9fv/node-is-logger#readme",
   "dependencies": {
     "es6-error": "^4.1.1",
     "lodash": "^4.17.4"
@@ -42,11 +50,13 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-eslint": "^4.0.1",
+    "gulp-istanbul": "^1.1.3",
     "gulp-jsdoc-to-markdown": "^1.2.2",
     "gulp-load-plugins": "^1.5.0",
     "gulp-mocha": "^5.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.8",
+    "isparta": "^4.0.0",
     "mocha": "^5.0.0",
     "pre-commit": "^1.2.2",
     "require-dir": "^0.3.2",
