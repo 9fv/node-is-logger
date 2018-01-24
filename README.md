@@ -40,7 +40,7 @@ Verify if a value seems or is a logger, including "standardized" methods: `debug
 
 ## Installation
 
-    npm install is-a-logger
+    npm install is-logger
 
 ## API Reference
 
@@ -56,7 +56,7 @@ Depending on the size of the project, if it is small and simple enough the refer
 
 ### Node
 
-Tested with Node v9.4.0
+Tested with [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/)
 
 ### Browser
 
