@@ -5,7 +5,7 @@ const should = require('should'); // eslint-disable-line no-unused-vars
 const bunyan = require('bunyan');
 const winston = require('winston');
 
-const isALogger = require('../lib/is-a-logger');
+const isALogger = require('../lib/is-logger');
 
 
 /**
@@ -62,6 +62,12 @@ describe('Unit testing for [Function=isALogger] using a Bunyan logger', () => {
 
   it('should return false when the Bunyan module is provided', () => {
     (isALogger(bunyan)).should.be.a.Boolean().which.is.False();
+  });
+
+  it('should throw if the Bunyan module is provided', () => {
+    (() => {
+      isALogger(bunyan, {throwOnFalse: true})
+    }).should.throw('NotALoggerError: Provided (logger: ?} does not contain a (method: debug)');
   });
 });
 
