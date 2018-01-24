@@ -72,7 +72,7 @@ Let people know how they can dive into the project, include important links to t
 
 ## License
 
-> MIT License
+> [The MIT License](https://opensource.org/licenses/MIT)
 > 
 > Copyright (c) 2018 SAS 9 Février
 > 
