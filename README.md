@@ -1,5 +1,5 @@
 node-is-logger 
-======================
+==============
 
 ## Table of Contents
 
@@ -31,13 +31,13 @@ Verify if a value seems or is a logger, including "standardized" methods: `debug
    const FAKE_LOG = {name: 'I am a fake logger!"};
    
    console.log(isLogger(LOG)) 
-   # > return true: LOG is a logger.
+   # >>> return true: LOG is a logger.
    
    console.log(isLogger(FAKE_LOG);
-   # > return false: FAKE_LOG is not a logger.
+   # >>> return false: FAKE_LOG is not a logger.
    
    console.log(isLogger(FAKE_LOG, {throwOnFalse: true});
-   # > throw an error of type `IsNotLoggerError`: FAKE_LOG is not a logger.
+   # >>> throw an error of type `IsNotLoggerError`: FAKE_LOG is not a logger.
    
 ```
 
