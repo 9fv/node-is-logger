@@ -1,8 +1,8 @@
 {
   "name": "is-logger",
-  "version": "0.1.0-beta2",
+  "version": "0.1.0",
   "description": "Verify if a value seems or is a logger, including \"standardized\" methods",
-  "main": "src/is-logger.js",
+  "main": "lib/is-logger.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/gulp/bin/gulp.js lint",

@@ -122,6 +122,10 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="history"> History
 
+### v0.1.0 (2018-01-28)
+
+Fix bug: bad entry point in `package.json`.
+
 ### v0.1.0-beta2 (2018-01-28)
 
 Fix badges & documentation.
