@@ -1,6 +1,8 @@
 node-is-logger 
 ======================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/9fv/node-is-logger.svg)](https://greenkeeper.io/)
+
 ## Table of Contents
 
 * [Synopsis](#Synopsis)
