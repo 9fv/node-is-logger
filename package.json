@@ -1,6 +1,6 @@
 {
   "name": "is-logger",
-  "version": "0.1.0-alpha2",
+  "version": "0.1.0-beta1",
   "description": "Verify if a value seems or is a logger, including \"standardized\" methods",
   "main": "src/is-logger.js",
   "scripts": {
