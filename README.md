@@ -1,13 +1,13 @@
 [npm-badge]: https://img.shields.io/npm/v/is-logger.svg
-[npm-badge-url]: https://www.npmjs.com/package/node-is-logger
+[npm-badge-url]: https://www.npmjs.com/package/is-logger
 [npm-downloads-badge]: https://img.shields.io/npm/dt/is-logger.svg
 [npm-downloads-url]: https://npmjs.org/package/is-logger
-[travis-badge]: https://img.shields.io/travis/9fv/node-is-logger/0.1.0-beta1.svg?label=TravisCI
+[travis-badge]: https://img.shields.io/travis/9fv/node-is-logger/master.svg?label=TravisCI
 [travis-badge-url]: https://travis-ci.org/9fv/node-is-logger
-[circle-badge]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-beta1.svg?style=svg&circle-token=
-[circle-badge-url]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-beta1
-[coveralls-badge]: https://coveralls.io/repos/github/9fv/node-is-logger/badge.svg?branch=0.1.0-beta1
-[coveralls-badge-url]: https://coveralls.io/github/9fv/node-is-logger?branch=0.1.0-beta1
+[circle-badge]: https://circleci.com/gh/9fv/node-is-logger/tree/master.svg?style=svg&circle-token=
+[circle-badge-url]: https://circleci.com/gh/9fv/node-is-logger/tree/master
+[coveralls-badge]: https://coveralls.io/repos/github/9fv/node-is-logger/badge.svg?branch=master
+[coveralls-badge-url]: https://coveralls.io/github/9fv/node-is-logger?branch=master
 [codeclimate-badge]: https://img.shields.io/codeclimate/github/9fv/node-is-logger.svg
 [codeclimate-badge-url]: https://codeclimate.com/github/9fv/node-is-logger
 [ember-observer-badge]: http://emberobserver.com/badges/node-is-logger.svg
@@ -36,6 +36,7 @@ node-is-logger
 [![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 [![Greenkeeper badge][greenkeeper-badge]][greenkeeper-badge-url]
 
+
 ## Table of Contents
 
 * [Synopsis](#synopsis)
@@ -59,7 +60,7 @@ Verify if a value seems or is a logger, including "standardized" methods: `debug
 
 ## <a name="usage"> Usage
 
-```
+```javascript
    const isLogger = require('is-logger');
    const bunyan = require('bunyan');
 
