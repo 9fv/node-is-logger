@@ -122,6 +122,10 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="history"> History
 
+### v0.1.0-beta2 (2018-01-28)
+
+Fix badges & documentation.
+
 ### v0.1.0-beta1 (2018-01-28)
 
 Fix bugs: invalid NPM badge.
