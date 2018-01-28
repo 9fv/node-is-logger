@@ -1,38 +1,41 @@
 [npm-badge]: https://img.shields.io/npm/v/node-is-logger.svg
 [npm-badge-url]: https://www.npmjs.com/package/node-is-logger
+[npm-downloads-badge]: https://img.shields.io/npm/dt/.svg
+[npm-downloads-url]: https://npmjs.org/package/
 [travis-badge]: https://img.shields.io/travis/9fv/node-is-logger/0.1.0-alpha2.svg?label=TravisCI
 [travis-badge-url]: https://travis-ci.org/9fv/node-is-logger
-<!--
 [circle-badge]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-alpha2.svg?style=svg&circle-token=
 [circle-badge-url]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-alpha2
--->
 [coveralls-badge]: https://coveralls.io/repos/github/9fv/node-is-logger/badge.svg?branch=0.1.0-alpha2
 [coveralls-badge-url]: https://coveralls.io/github/9fv/node-is-logger?branch=0.1.0-alpha2
 [codeclimate-badge]: https://img.shields.io/codeclimate/github/9fv/node-is-logger.svg
 [codeclimate-badge-url]: https://codeclimate.com/github/9fv/node-is-logger
-<!--
 [ember-observer-badge]: http://emberobserver.com/badges/node-is-logger.svg
 [ember-observer-badge-url]: http://emberobserver.com/addons/node-is-logger
--->
 [license-badge]: https://img.shields.io/npm/l/.svg
 [license-badge-url]: LICENSE.md
 [dependencies-badge]: https://img.shields.io/david/9fv/node-is-logger.svg
 [dependencies-badge-url]: https://david-dm.org/9fv/node-is-logger
 [devDependencies-badge]: https://img.shields.io/david/dev/9fv/node-is-logger.svg
 [devDependencies-badge-url]: https://david-dm.org/9fv/node-is-logger#info=devDependencies
+[greenkeeper-badge]: https://badges.greenkeeper.io/9fv/node-is-logger.svg
+[greenkeeper-badge-url]: https://greenkeeper.io/
+
+
 
 node-is-logger
 ==============
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
+[![NPM Downloads][npm-downloads-badge]][npm-downloads-url]
 [![TravisCI Build Status][travis-badge]][travis-badge-url]
-<!--[![CircleCI Build Status][circle-badge]][circle-badge-url]-->
 [![Test Coverage][coveralls-badge]][coveralls-badge-url]
 [![Code Climate][codeclimate-badge]][codeclimate-badge-url]
-[![Ember Observer Score][ember-observer-badge]][ember-observer-badge-url]
 [![License][license-badge]][license-badge-url]
 [![Dependencies][dependencies-badge]][dependencies-badge-url] 
 [![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
+[![Greenkeeper badge][greenkeeper-badge]][greenkeeper-badge-url]
+
 
 ## Table of Contents
 
