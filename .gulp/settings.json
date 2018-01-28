@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "path": "lib/",
+    "pattern": "**/*.js"
+  },
+  "tests": {
+    "path": "test/",
+    "pattern": "**/*.test.js",
+    "eslint": {
+      "options": {
+        "extends": "airbnb",
+        "plugins": [
+          "mocha"
+        ],
+        "rules": {
+          "mocha/no-exclusive-tests": "error"
+        }
+      }
+    }
+  },
+  "gulp": {
+    "tasks": {
+      "path": ".gulp/tasks",
+      "pattern": "**/*.js"
+    }
+  }
+}
