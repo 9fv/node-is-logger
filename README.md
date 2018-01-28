@@ -1,7 +1,7 @@
 [npm-badge]: https://img.shields.io/npm/v/node-is-logger.svg
 [npm-badge-url]: https://www.npmjs.com/package/node-is-logger
-[npm-downloads-badge]: https://img.shields.io/npm/dt/.svg
-[npm-downloads-url]: https://npmjs.org/package/
+[npm-downloads-badge]: https://img.shields.io/npm/dt/is-logger.svg
+[npm-downloads-url]: https://npmjs.org/package/is-logger
 [travis-badge]: https://img.shields.io/travis/9fv/node-is-logger/0.1.0-alpha2.svg?label=TravisCI
 [travis-badge-url]: https://travis-ci.org/9fv/node-is-logger
 [circle-badge]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-alpha2.svg?style=svg&circle-token=
@@ -12,7 +12,7 @@
 [codeclimate-badge-url]: https://codeclimate.com/github/9fv/node-is-logger
 [ember-observer-badge]: http://emberobserver.com/badges/node-is-logger.svg
 [ember-observer-badge-url]: http://emberobserver.com/addons/node-is-logger
-[license-badge]: https://img.shields.io/npm/l/.svg
+[license-badge]: https://img.shields.io/npm/l/is-logger.svg
 [license-badge-url]: LICENSE.md
 [dependencies-badge]: https://img.shields.io/david/9fv/node-is-logger.svg
 [dependencies-badge-url]: https://david-dm.org/9fv/node-is-logger
@@ -48,6 +48,7 @@ node-is-logger
 * [Compatibility](#compatibility)
   * [Node](#compatibility_node)
   * [Browser](#compatibility_browser)
+* [Contributing](#issues)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [History](#history)
@@ -95,19 +96,39 @@ Depending on the size of the project, if it is small and simple enough the refer
 
 ### <a name="compatibility_node"> Node
 
-Tested with [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/)
+Tested using [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/).
 
 ### <a name="compatibility_browser"> Browser
 
 Untested at this time.
 
+## <a name="issues"> Issues
+
+Feel free to submit issues and enhancement requests.
+
 ## <a name="contributing"> Contributing
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Please refer to project's style guidelines and guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+**NOTE**: Be sure to merge the latest from "upstream" before making a pull request!
 
 ## <a name="credits"> Credits
 
 ## <a name="history"> History
+
+### v0.1.0-alpha2 (2018-01-28)
+
+Finalizing code, tests and automated generation of documentation.
+
+### v0.1.0-alpha1 (2018-01-24)
+
+Initial version.
 
 ## <a name="license"> License
 

@@ -1,24 +1,24 @@
-[npm-badge]: https://img.shields.io/npm/v/{{REPO_NAME}}.svg
-[npm-badge-url]: https://www.npmjs.com/package/{{REPO_NAME}}
-[npm-downloads-badge]: https://img.shields.io/npm/dt/{{PACKAGE_NAME}}.svg
-[npm-downloads-url]: https://npmjs.org/package/{{PACKAGE_NAME}}
-[travis-badge]: https://img.shields.io/travis/{{USER_NAME}}/{{REPO_NAME}}/{{BRANCH_NAME}}.svg?label=TravisCI
-[travis-badge-url]: https://travis-ci.org/{{USER_NAME}}/{{REPO_NAME}}
-[circle-badge]: https://circleci.com/gh/{{USER_NAME}}/{{REPO_NAME}}/tree/{{BRANCH_NAME}}.svg?style=svg&circle-token={{CIRCLE_TOKEN}}
-[circle-badge-url]: https://circleci.com/gh/{{USER_NAME}}/{{REPO_NAME}}/tree/{{BRANCH_NAME}}
-[coveralls-badge]: https://coveralls.io/repos/github/{{USER_NAME}}/{{REPO_NAME}}/badge.svg?branch={{BRANCH_NAME}}
-[coveralls-badge-url]: https://coveralls.io/github/{{USER_NAME}}/{{REPO_NAME}}?branch={{BRANCH_NAME}}
-[codeclimate-badge]: https://img.shields.io/codeclimate/github/{{USER_NAME}}/{{REPO_NAME}}.svg
-[codeclimate-badge-url]: https://codeclimate.com/github/{{USER_NAME}}/{{REPO_NAME}}
-[ember-observer-badge]: http://emberobserver.com/badges/{{REPO_NAME}}.svg
-[ember-observer-badge-url]: http://emberobserver.com/addons/{{REPO_NAME}}
-[license-badge]: https://img.shields.io/npm/l/{{PACKAGE_NAME}}.svg
+[npm-badge]: https://img.shields.io/npm/v/{{github.REPO_NAME}}.svg
+[npm-badge-url]: https://www.npmjs.com/package/{{github.REPO_NAME}}
+[npm-downloads-badge]: https://img.shields.io/npm/dt/{{npm.PACKAGE_NAME}}.svg
+[npm-downloads-url]: https://npmjs.org/package/{{npm.PACKAGE_NAME}}
+[travis-badge]: https://img.shields.io/travis/{{github.USER_NAME}}/{{github.REPO_NAME}}/{{github.BRANCH_NAME}}.svg?label=TravisCI
+[travis-badge-url]: https://travis-ci.org/{{github.USER_NAME}}/{{github.REPO_NAME}}
+[circle-badge]: https://circleci.com/gh/{{github.USER_NAME}}/{{github.REPO_NAME}}/tree/{{github.BRANCH_NAME}}.svg?style=svg&circle-token={{CIRCLE_TOKEN}}
+[circle-badge-url]: https://circleci.com/gh/{{github.USER_NAME}}/{{github.REPO_NAME}}/tree/{{github.BRANCH_NAME}}
+[coveralls-badge]: https://coveralls.io/repos/github/{{github.USER_NAME}}/{{github.REPO_NAME}}/badge.svg?branch={{github.BRANCH_NAME}}
+[coveralls-badge-url]: https://coveralls.io/github/{{github.USER_NAME}}/{{github.REPO_NAME}}?branch={{github.BRANCH_NAME}}
+[codeclimate-badge]: https://img.shields.io/codeclimate/github/{{github.USER_NAME}}/{{github.REPO_NAME}}.svg
+[codeclimate-badge-url]: https://codeclimate.com/github/{{github.USER_NAME}}/{{github.REPO_NAME}}
+[ember-observer-badge]: http://emberobserver.com/badges/{{github.REPO_NAME}}.svg
+[ember-observer-badge-url]: http://emberobserver.com/addons/{{github.REPO_NAME}}
+[license-badge]: https://img.shields.io/npm/l/{{npm.PACKAGE_NAME}}.svg
 [license-badge-url]: LICENSE.md
-[dependencies-badge]: https://img.shields.io/david/{{USER_NAME}}/{{REPO_NAME}}.svg
-[dependencies-badge-url]: https://david-dm.org/{{USER_NAME}}/{{REPO_NAME}}
-[devDependencies-badge]: https://img.shields.io/david/dev/{{USER_NAME}}/{{REPO_NAME}}.svg
-[devDependencies-badge-url]: https://david-dm.org/{{USER_NAME}}/{{REPO_NAME}}#info=devDependencies
-[greenkeeper-badge]: https://badges.greenkeeper.io/{{USER_NAME}}/{{REPO_NAME}}.svg
+[dependencies-badge]: https://img.shields.io/david/{{github.USER_NAME}}/{{github.REPO_NAME}}.svg
+[dependencies-badge-url]: https://david-dm.org/{{github.USER_NAME}}/{{github.REPO_NAME}}
+[devDependencies-badge]: https://img.shields.io/david/dev/{{github.USER_NAME}}/{{github.REPO_NAME}}.svg
+[devDependencies-badge-url]: https://david-dm.org/{{github.USER_NAME}}/{{github.REPO_NAME}}#info=devDependencies
+[greenkeeper-badge]: https://badges.greenkeeper.io/{{github.USER_NAME}}/{{github.REPO_NAME}}.svg
 [greenkeeper-badge-url]: https://greenkeeper.io/
 
 
@@ -29,10 +29,8 @@ node-is-logger
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![NPM Downloads][npm-downloads-badge]][npm-downloads-url]
 [![TravisCI Build Status][travis-badge]][travis-badge-url]
-<!--[![CircleCI Build Status][circle-badge]][circle-badge-url]-->
 [![Test Coverage][coveralls-badge]][coveralls-badge-url]
 [![Code Climate][codeclimate-badge]][codeclimate-badge-url]
-<!--[![Ember Observer Score][ember-observer-badge]][ember-observer-badge-url]-->
 [![License][license-badge]][license-badge-url]
 [![Dependencies][dependencies-badge]][dependencies-badge-url] 
 [![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
@@ -50,6 +48,7 @@ node-is-logger
 * [Compatibility](#compatibility)
   * [Node](#compatibility_node)
   * [Browser](#compatibility_browser)
+* [Contributing](#issues)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [History](#history)
@@ -97,19 +96,39 @@ Depending on the size of the project, if it is small and simple enough the refer
 
 ### <a name="compatibility_node"> Node
 
-Tested with [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/)
+Tested using [Node v9.4.0](https://nodejs.org/dist/v9.4.0/docs/api/).
 
 ### <a name="compatibility_browser"> Browser
 
 Untested at this time.
 
+## <a name="issues"> Issues
+
+Feel free to submit issues and enhancement requests.
+
 ## <a name="contributing"> Contributing
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Please refer to project's style guidelines and guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+**NOTE**: Be sure to merge the latest from "upstream" before making a pull request!
 
 ## <a name="credits"> Credits
 
 ## <a name="history"> History
+
+### v0.1.0-alpha2 (2018-01-28)
+
+Finalizing code, tests and automated generation of documentation.
+
+### v0.1.0-alpha1 (2018-01-24)
+
+Initial version.
 
 ## <a name="license"> License
 

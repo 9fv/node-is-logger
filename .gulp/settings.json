@@ -1,4 +1,11 @@
 {
+  "npm": {
+
+  },
+  "github": {
+    "USER_NAME": "9fv",
+    "REPO_NAME": "node-is-logger"
+  },
   "sources": {
     "path": "lib/",
     "pattern": "**/*.js"
@@ -17,6 +24,10 @@
         }
       }
     }
+  },
+  "templates": {
+    "path": ".templates",
+    "pattern": "**/*.mustache"
   },
   "gulp": {
     "tasks": {

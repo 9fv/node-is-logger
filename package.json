@@ -14,7 +14,7 @@
     "precommit-msg",
     "lint",
     "test",
-    "cover",
+    "coverage",
     "docs"
   ],
   "repository": {
