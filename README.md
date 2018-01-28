@@ -1,13 +1,13 @@
-[npm-badge]: https://img.shields.io/npm/v/node-is-logger.svg
+[npm-badge]: https://img.shields.io/npm/v/is-logger.svg
 [npm-badge-url]: https://www.npmjs.com/package/node-is-logger
 [npm-downloads-badge]: https://img.shields.io/npm/dt/is-logger.svg
 [npm-downloads-url]: https://npmjs.org/package/is-logger
-[travis-badge]: https://img.shields.io/travis/9fv/node-is-logger/0.1.0-alpha2.svg?label=TravisCI
+[travis-badge]: https://img.shields.io/travis/9fv/node-is-logger/0.1.0-beta1.svg?label=TravisCI
 [travis-badge-url]: https://travis-ci.org/9fv/node-is-logger
-[circle-badge]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-alpha2.svg?style=svg&circle-token=
-[circle-badge-url]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-alpha2
-[coveralls-badge]: https://coveralls.io/repos/github/9fv/node-is-logger/badge.svg?branch=0.1.0-alpha2
-[coveralls-badge-url]: https://coveralls.io/github/9fv/node-is-logger?branch=0.1.0-alpha2
+[circle-badge]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-beta1.svg?style=svg&circle-token=
+[circle-badge-url]: https://circleci.com/gh/9fv/node-is-logger/tree/0.1.0-beta1
+[coveralls-badge]: https://coveralls.io/repos/github/9fv/node-is-logger/badge.svg?branch=0.1.0-beta1
+[coveralls-badge-url]: https://coveralls.io/github/9fv/node-is-logger?branch=0.1.0-beta1
 [codeclimate-badge]: https://img.shields.io/codeclimate/github/9fv/node-is-logger.svg
 [codeclimate-badge-url]: https://codeclimate.com/github/9fv/node-is-logger
 [ember-observer-badge]: http://emberobserver.com/badges/node-is-logger.svg
@@ -83,7 +83,7 @@ Verify if a value seems or is a logger, including "standardized" methods: `debug
 
 ## <a name="api-reference"> API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Please refer to [API documentation](docs/API.md).
 
 ## <a name="test"> Tests
 
@@ -120,6 +120,10 @@ Please refer to project's style guidelines and guidelines for submitting patches
 ## <a name="credits"> Credits
 
 ## <a name="history"> History
+
+### v0.1.0-beta1 (2018-01-28)
+
+Fix bugs: invalid NPM badge.
 
 ### v0.1.0-alpha2 (2018-01-28)
 
