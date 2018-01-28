@@ -65,7 +65,7 @@ Verify if a value seems or is a logger, including "standardized" methods: `debug
    const bunyan = require('bunyan');
 
    const LOG = bunyan.createLogger({name: __filename});
-   const FAKE_LOG = {name: 'I am a fake logger!"};
+   const FAKE_LOG = {name: 'I am a fake logger!'};
 
    console.log(isLogger(LOG))
    # >>> return true: LOG is a logger.
