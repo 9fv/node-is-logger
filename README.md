@@ -122,6 +122,10 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="history"> History
 
+### v0.1.1 (2018-02-08)
+
+* [Update require-dir to the latest version](https://github.com/9fv/node-is-logger/pull/4)
+
 ### v0.1.0 (2018-01-28)
 
 Fix bug: bad entry point in `package.json`.
