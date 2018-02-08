@@ -1,13 +1,13 @@
 {
   "name": "is-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Verify if a value seems or is a logger, including \"standardized\" methods",
   "main": "lib/is-logger.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/gulp/bin/gulp.js lint",
     "docs": "node ./node_modules/gulp/bin/gulp.js docs",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage": "npm test && nyc report --reporter=text-lcov | coveralls",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
   },
   "pre-commit": [
