@@ -38,7 +38,7 @@
   "homepage": "https://github.com/9fv/node-is-logger#readme",
   "dependencies": {
     "es6-error": "^4.1.1",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.9"
   },
   "devDependencies": {
     "bunyan": "^1.8.12",
